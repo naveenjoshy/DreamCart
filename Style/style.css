@@ -105,6 +105,11 @@
     text-decoration: none;
 }
 .carousel {
+    width: 80%;
+    border-radius: 20px;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
     display: flex;
     overflow-x: auto;
     scroll-snap-type: x mandatory;
@@ -121,6 +126,7 @@
     object-fit: cover;
 }
 .nav-icons {
+    background-color: #ffffff;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -140,7 +146,7 @@
     text-decoration: none;
     align-items: center;
     align-content: center;
-    color: black;
+    color: rgb(0, 0, 0);
     font-size: 14px;
     text-align: center;
     display: flex;
