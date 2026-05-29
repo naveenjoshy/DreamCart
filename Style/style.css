@@ -166,6 +166,7 @@
 .featured-products{
     width: 80%;
     height: 400px;
+    border-radius: 20px;
     justify-content: center;
     align-items: center;
     gap: 10px;
@@ -205,7 +206,7 @@
     background-color: #f7f6f6;
     padding: 10px;
     text-align: center;
-    width: 250px;
+    width: 70%;
     height: 300px;
     margin: 10px;
 }
@@ -216,3 +217,62 @@
     object-fit: fill;
     border-radius: 10px;
 }
+footer {
+    position: relative;
+    background-color: #040000;
+    color: rgb(247, 244, 244);
+    text-align: left;
+    padding: 20px;
+    margin-top: 50px;
+}
+footer .footer-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.footer-section {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 30px;
+}
+.footer-section h3 {
+    font-size: 18px;
+    color: #fff;
+}
+footer ul {
+    list-style: none;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}   
+.footer-section ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 14px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+.footer-section ul li a:hover {
+    transition: 0.5s;
+    color: #2f99fb;
+    text-decoration: underline;
+}   
+.social-media {
+    display: flex;
+    gap: 10px;
+}
+.social-media a img{
+    Height: 30px;
+    width: 30px;
+}
+.social-media a img :hover {
+    transform: scale(1.05);
+    transition: 0.5s;
+} 
+.footer-bottom {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 14px;
+    color: #888;
+}   
