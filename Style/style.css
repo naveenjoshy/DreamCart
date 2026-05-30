@@ -239,13 +239,14 @@ footer {
 footer .footer-container {
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    align-items: flex-start;
 }
 .footer-section {
     display: flex;
     flex-direction: column;
     gap: 10px;
-    padding: 30px;
+    align-content: top;
+    padding-top: 30px;
 }
 .footer-section h3 {
     font-size: 18px;
