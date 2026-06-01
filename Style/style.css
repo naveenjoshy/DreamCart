@@ -121,8 +121,8 @@
     gap: 10px;
     margin-right: 10px;
     border-radius: 10px;
-    flex: 0 0 100%; /* Each image takes full width */
-    scroll-snap-align: start; /* Snaps to the start of each image */
+    flex: 0 0 100%;
+    scroll-snap-align: start;
     object-fit: cover;
 }
 .nav-icons {
