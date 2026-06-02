@@ -121,9 +121,9 @@
     gap: 10px;
     margin-right: 10px;
     border-radius: 10px;
-    flex: 0 0 100%;
+    flex: 100%;
     scroll-snap-align: start;
-    object-fit: cover;
+    object-fit: fill;
 }
 .nav-icons {
     background-color: #ffffff;
